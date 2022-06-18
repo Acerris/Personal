@@ -1,0 +1,7 @@
+frase= input("Introduzca una frase: ")
+print("La frase es: ",frase)
+print("Cantidad de veces que aaparece a: ",frase.count('a'))
+print("Cantidad de veces que aaparece e: ",frase.count('e'))
+print("Cantidad de veces que aaparece i: ",frase.count('i'))
+print("Cantidad de veces que aaparece o: ",frase.count('o'))
+print("Cantidad de veces que aaparece u: ",frase.count('u'))
