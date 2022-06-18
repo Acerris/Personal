@@ -1,0 +1,37 @@
+Git es un controlador de versiones
+se usa para trabajar de forma colaborativa
+con git podre hacer el deploit
+git solo sube las diferencias
+
+un sistema de control de versiones:
+-registra los cambios realizados en archivos a lo largo del tiempo
+-recuperar versiones especificas de nuestro codigo
+    *regresar versiones anteriores de tus archivos
+    *regresar a versiones anteriores del proyecto completo
+    *comparar los cambios a lo largo del tiempo
+-se puede ver quien modifico un archivo en un momento especifico
+-recuperar archivos perdidos o arruinados
+
+los 3 estados
+directorio de trabajo otros estados - modified
+area de preparacion el stage otros estados - staged
+repositorio local otros estados - commited
+
+estos 3 estados pasan en tu computadora
+
+
+si quiero pasar del estado modified al staged necesito colocar el comando git add
+si quiero pasar del staged a commited coloco el comando git commit
+
+el working dyrectory es donde se estara trabajando normalmente
+el working dyrectory es una copia del proyecto 
+el staging area es una lista  de las cosas que estan hechas
+el local repository es donde se encuentra todo, el proyecto final
+
+para instalar git mediante powershell
+winget install --id Git.Git -e --source winget
+
+despues que se instalo corre los siguientes comandos:
+git config --global user.name "usuario"
+git config --global user.email correo
+git init para iniciar y crear la carpeta .git
